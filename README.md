@@ -50,4 +50,5 @@ Solution:
 ```
 ## Misc
 Tool for interacting with llm : https://llm.datasette.io/en/stable/
+
 Plugin for downloading gpt4all models : https://github.com/simonw/llm-gpt4all
