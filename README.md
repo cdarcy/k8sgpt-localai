@@ -1,5 +1,5 @@
 # k8sgpt with local-ai in 5 steps
-Evaluates the use of k8sgpt with a locally running llm using local-ai.
+Evaluates the use of k8sgpt with a locally running llm using local-ai.\
 Tested on Apple M2 (16GB RAM; macos Sonoma). Deploys k8sgpt, gpt4all, and chaos-mesh.
 
 ## Prerequisites
