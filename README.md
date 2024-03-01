@@ -1,12 +1,17 @@
 # k8sgpt with local-ai in 5 steps
 Evaluates the use of k8sgpt with a locally running llm using local-ai.\
+k8sgpt is a community project leveraging the capabilities of LLMs to troubleshoot k8s-related issues \
 Tested on Apple M2 (16GB RAM; macos Sonoma). Deploys k8sgpt, gpt4all, and chaos-mesh.
 
-## Prerequisites
+## Prerequisites on Macos
 * Run a minikube local cluster https://minikube.sigs.k8s.io/docs/start/ 
 * Install k8sgpt with homebrew https://docs.k8sgpt.ai/getting-started/installation/
-* Build local-ai from source on Mac M1/M2 https://localai.io/basics/build/ (docker image is not working as it is not available for apple chips yet or I am missing something...)
-
+* Build local-ai from source on Mac M1/M2 https://localai.io/basics/build/ (docker image is not working as it is not available for apple chips yet or I am missing something...) :
+```
+git clone https://github.com/go-skynet/LocalAI
+cd LocalAI
+make build
+```
 ## Steps
 1. Download a model from gpt4all (best tested the one from mistral)
 ```
@@ -85,7 +90,9 @@ Solution:
 
 ```
 
-## Misc
+## Links
+minikube : http://minikube.sigs.k8s.io
+k8sgpt : https://k8sgpt.ai
+localai : https://localai.io
 Tool for interacting with llm : https://llm.datasette.io/en/stable/
-
 Plugin for downloading gpt4all models : https://github.com/simonw/llm-gpt4all
