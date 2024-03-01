@@ -57,7 +57,7 @@ Solution:
 ```
 
 ## Simulate other failures
-On the working nginx deployment apply a patch to request 100G of memory (😱) for the pod to simulate unschedulable pod. Run k8sgpt :
+On the working nginx deployment apply a patch to request 100G of memory (😱) to simulate unschedulable pod. Run k8sgpt :
 ```
 kubectl patch deployment nginx --patch-file=chaos-mesh/patch-unschedulable.yaml
 k8sgpt analyze --explain -b localai                                            
