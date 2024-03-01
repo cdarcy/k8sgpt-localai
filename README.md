@@ -91,8 +91,8 @@ Solution:
 ```
 
 ## Links
-minikube : http://minikube.sigs.k8s.io
-k8sgpt : https://k8sgpt.ai
-localai : https://localai.io
-Tool for interacting with llm : https://llm.datasette.io/en/stable/
+minikube : http://minikube.sigs.k8s.io \
+k8sgpt : https://k8sgpt.ai \
+localai : https://localai.io \
+Tool for interacting with llm : https://llm.datasette.io/en/stable/ \
 Plugin for downloading gpt4all models : https://github.com/simonw/llm-gpt4all
