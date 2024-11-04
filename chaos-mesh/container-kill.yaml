@@ -1,12 +1,12 @@
 apiVersion: chaos-mesh.org/v1alpha1
 kind: PodChaos
 metadata:
-  name: pod-failure-example
+  name: container-kill-example
   namespace: chaos-mesh
 spec:
-  action: pod-failure
+  action: container-kill
   mode: one
-  duration: '10m'
+  containerNames: ['nginx']
   selector:
     namespaces:
       - chaos-test
